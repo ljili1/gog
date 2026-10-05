@@ -5,6 +5,8 @@
 // @author       Elm Forest (modified) + WorkBuddy
 // @description  自动领取GOG限免游戏；领取成功或已领取过时，先从订阅页查询这 4 项 newsletter 开关的当前状态，只把“已开启”的置为 /0（关闭）。不打开页面、不点勾选框。
 // @icon         https://www.gog.com/favicon.ico
+// @updateURL    https://raw.githubusercontent.com/ljili1/gog/main/gog.js
+// @downloadURL  https://raw.githubusercontent.com/ljili1/gog/main/gog.js
 // @grant        GM_log
 // @grant        GM_xmlhttpRequest
 // @connect      www.gog.com
@@ -13,6 +15,12 @@
 // @homepage     https://github.com/Elm-Forest/gog-claim
 // @supportURL   https://github.com/Elm-Forest/gog-claim/issues
 // ==/UserScript==
+
+// 安装 / 更新链接（ScriptCat、Tampermonkey 直接从这个地址安装即可自动更新）：
+//   https://raw.githubusercontent.com/ljili1/gog/main/gog.js
+// 若 raw.githubusercontent.com 访问不畅，用 jsDelivr 镜像：
+//   https://cdn.jsdelivr.net/gh/ljili1/gog@main/gog.js
+// 以后发新版：改 @version 后覆盖本文件（文件名保持 gog.js），管理器会自动提示更新。
 
 /* ================================ 可调配置 ================================ */
 
