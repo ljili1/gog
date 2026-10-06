@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         自动领取GOG限免 + 先查状态再关闭已开启的营销订阅（单文件）
+// @name         自动领取GOG限免
 // @namespace    https://bbs.tampermonkey.net.cn/
 // @version      2.7.0
 // @author       Elm Forest (modified) + WorkBuddy
